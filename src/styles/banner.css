@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bgcolor {
+    background: rgb(247, 235, 218);
+
+
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 82px;
+}
+
+.mainHeading {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.coffee {
+    color: rgb(255, 145, 43);
+}
+
+.firstPara {
+    color: rgb(126, 125, 122);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 100%;
+    max-width: 393px;
+    padding: 24px 0 32px;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.btnImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 33px;
+    box-shadow: 0px 4px 32px 0px rgba(223, 195, 124, 0.25);
+    background: rgb(47, 33, 5);
+    padding: 12px 32px;
+}
+
+.degingName {
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.moreMenu {
+    color: rgb(244, 174, 38);
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.img {
+    max-width: 527px;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+/*Secound Sec*/
+
+.mainContant {
+    position: relative;
+    padding: 50px;
+}
+
+.pouplarNow {
+    color: rgb(0, 0, 0);
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 4%;
+    text-align: left;
+    padding: 20px;
+
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.mainImgdiv {
+    max-width: 355px;
+    width: 100%;
+    border-radius: 12px;
+    background: linear-gradient(180.00deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.7) 100%);
+    text-align: center;
+    padding: 10px;
+}
+
+.imgDiv {
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.cOne {
+    text-align: center;
+    object-fit: contain;
+    width: 100%;
+    max-width: 307px;
+}
+
+.ranking {
+    position: absolute;
+    max-width: 100%;
+    width: 70px;
+    height: 34px;
+    left: 28px;
+    right: -183px;
+    top: 29px;
+    bottom: -507px;
+    border-radius: 27px;
+    backdrop-filter: blur(4px);
+    background: linear-gradient(180.00deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rankDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    width: 62px;
+    height: 26px;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgb(255, 255, 255);
+    border-style: none;
+    gap: 5px;
+}
+
+.design_ranking {
+    color: rgb(47, 33, 5);
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 4%;
+    text-align: center;
+}
+
+.coffeeDetail {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.cn {
+    color: rgb(47, 33, 5);
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 4%;
+    text-align: left;
+}
+
+.marks {
+    color: rgb(47, 33, 5);
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 4%;
+    text-align: center;
+}
+
+.sugest {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    align-items: center;
+}
+
+
+.subDiv {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.sub1 {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 145, 43);
+    border-radius: 8px;
+    padding: 10px;
+    color: rgb(255, 145, 43);
+    background: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 64px;
+    height: 32px;
+
+}
+
+.sub2 {
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 210, 143);
+    border-radius: 8px;
+    padding: 10px;
+    color: rgb(255, 210, 143);
+    background: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 64px;
+    height: 32px;
+}
+
+.Frame_order_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Frame_order {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.threeCard {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.full_sec {
+    margin: 147px 0;
+    padding: 10px;
+}
+
+.cards_two {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.img_div {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.main_card_div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containt_div {
+    margin: 10PX;
+}
+
+.containt {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.choos {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.pouplarNow span {
+    border-bottom: 3px solid red;
+}
